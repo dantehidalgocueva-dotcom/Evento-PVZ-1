@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Quicksand:wght@500;700&display=swap');
+
+body {
+  margin: 0 auto;
+  padding: 50px 0;
+  width: 90vw;
+  max-width: 700px;
+  min-height: calc(100vh - 100px);
+ text-align: center; 
+ background: radial-gradient(circle, #5ba339 0%, #2e5d17 100%);
+ font-family: 'Quicksand', sans-serif;
+ color: white;
+}
+
+header img{
+width: 100%;
+max-width: 400px;
+height: auto;
+border-radius: 10px;
+border: 5px solid white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+  color: #ffce00; 
+  text-shadow: 2px 2px 0px #000; 
+  font-size: 3.5rem;
+  margin: 15px 0;
+}
+
+header p {
+  font-size: 1.25rem; 
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+header p strong {
+  font-size: 1.1rem;
+  color: #d32f2f; 
+}
+
+section h2 {
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2.8rem;
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+hr {
+  width: 90%;
+  border: 0;
+  height: 2px;
+  background-image: linear-gradient(to right, transparent, #ffce00, transparent); 
+  margin: 20px auto;
+}
+
+section {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 20px 10px;
+  border-radius: 15px; 
+  transition: transform 0.3s; 
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.5; 
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+section:first-of-type h2 {
+  color: #a6ff00; 
+  text-shadow: 2px 2px 0px #2e5d17, 4px 4px 10px rgba(0,0,0,0.4);
+}
+
+section:last-of-type h2 {
+  color: #e0aaff;
+  text-shadow: 2px 2px 0px #4a148c, 4px 4px 10px rgba(0,0,0,0.4);
+}
+
+section:first-of-type:hover {
+  transform: scale(1.05);
+  background-color: rgba(166, 255, 0, 0.2); 
+  box-shadow: 0 0 20px rgba(166, 255, 0, 0.4);
+}
+section:last-of-type:hover {
+  transform: scale(1.05);
+  background-color: rgba(224, 170, 255, 0.2); 
+  box-shadow: 0 0 20px rgba(224, 170, 255, 0.4);
+}
